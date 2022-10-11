@@ -6,8 +6,8 @@ const name = 'daule'
 const pass = "7004Daule"
 const dbName = "Lookie"
 const mongoAtlasUri =
-    // `mongodb+srv://${name}:${pass}@cluster0.yhimq.mongodb.net/${dbName}?retryWrites=true&w=majority`;
-    `localhost:27017/${dbName}`;
+    // `mongodb+srv://${name}:${pass}@cluster0.ymq.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+    `mongodb://localhost:27017/${dbName}`;
 try {
     // Connect to the MongoDB cluster
     mongoose.connect(
